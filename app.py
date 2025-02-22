@@ -11,10 +11,9 @@ with open("model.pkl", "rb") as f:
 st.title("Price Predictor")
 
 # input widget for getting user values for X (feature matrix value)
-Price = st.slider("Price", min_value=0, max_value=100, value=20)
-Engine_Size = st.slider("Engine_Size", min_value=0, max_value=100, value=20)
-Mileage = st.slider("Mileage", min_value=0, max_value=100, value=20)
-Owner_Count = st.slider("Owner_Count", min_value=0, max_value=100, value=20)
+Engine_Size = st.slider("Engine_Size", min_value=0, max_value=5, value=5)
+Mileage = st.slider("Mileage", min_value=0, max_value=290,000, value=2000)
+Owner_Count = st.slider("Owner_Count", min_value=0, max_value=5, value=5)
 
 # After selesting price, the user then submits the price value
 if st.button("Predict"):
