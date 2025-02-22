@@ -18,5 +18,5 @@ Owner_Count = st.slider("Owner_Count", min_value=0, max_value=5, value=5)
 # After selesting price, the user then submits the price value
 if st.button("Predict"):
   # take the price value, and format the value the right way
-  prediction = model.predict([[Price, Engine_Size, Mileage, Owner_Count]])[0].round(2)
+  prediction = model.predict([[Engine_Size, Mileage, Owner_Count]])[0].round(2)
   st.write("The price of your vehicle is", prediction, "thousand dollars")
