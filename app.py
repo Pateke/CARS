@@ -13,7 +13,7 @@ st.title("Price Predictor")
 # input widget for getting user values for X (feature matrix value)
 Price = st.slider("Price", min_value=0, max_value=100, value=20)
 Engine_Size = st.slider("Engine_Size", min_value=0, max_value=100, value=20)
-Milleage = st.slider("Mileage", min_value=0, max_value=100, value=20)
+Mileage = st.slider("Mileage", min_value=0, max_value=100, value=20)
 Owner_Count = st.slider("Owner_Count", min_value=0, max_value=100, value=20)
 
 # After selesting price, the user then submits the price value
