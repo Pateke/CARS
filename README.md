@@ -1,7 +1,7 @@
 # CARS
 
 # Gradient Boosting Model: Predicting Car Price
- #Problem Statement
+# Problem Statement
 # Objective
 The objective of this project is to develop a predictive model that estimates the price of cars based on key features. This model leverages the relationship between the car price and specific car attributes like engine size, mileage, and the number of owners to make predictions.
 
